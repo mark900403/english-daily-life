@@ -18,7 +18,6 @@ function say(n,slow,ev){if(ev)ev.stopPropagation();if(!SU){alert('此瀏覽器�
  speechSynthesis.cancel();if(!VO)pickV();const u=new SpeechSynthesisUtterance(TX[n]);u.lang='en-US';if(VO)u.voice=VO;u.rate=slow?0.6:0.9;speechSynthesis.speak(u)}
 const spk=t=>{const n=tid(t);return `<button class="sp" onclick="say(${n},0,event)">🔊</button><button class="sp" onclick="say(${n},1,event)">🐢</button>`};
 
- app.innerHTML='<h2>面試練習</h2><p style="font-size:13px">點虛線句子可單句播放</p>'+d.items.map((x,k)=>`<div class="ex"><b>Q${k+1}. ${x.q}</b> ${spk(x.q)}<br><small>${x.qZh}</small><p>${spk(x.a)}<br>${(x.a.match(/[^.!?]+[.!?]+/g)||[x.a]).map(s=>`<span class="sent" onclick="say(${tid(s.trim())},0)">${s.trim()}</span>`).join(' ')}</p><small>${x.aZh}</small></div>`).join('')}
 const K='dailyLifeState_v1';let S=JSON.parse(localStorage.getItem(K)||'{"wrong":{},"mastered":{}}');const save=()=>localStorage.setItem(K,JSON.stringify(S));
 let day,qs=[],i=0,score=0,answered=false;const $=id=>document.getElementById(id),app=$('app');
 const today=new Date(Date.now()+8*36e5).toISOString().slice(0,10);
