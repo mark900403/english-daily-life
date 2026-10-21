@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-21",
+ "questions": [
+  {
+   "word": "receipt",
+   "type": "meaning",
+   "prompt": "receipt",
+   "options": [
+    "收據",
+    "食譜",
+    "預約",
+    "折扣"
+   ],
+   "answer": 0,
+   "example": "Can I have the receipt, please?",
+   "exampleZh": "可以給我收據嗎？",
+   "id": "receipt"
+  },
+  {
+   "word": "refund",
+   "type": "blank",
+   "prompt": "This shirt is too small. Can I get a ____?",
+   "options": [
+    "refund",
+    "refill",
+    "review",
+    "record"
+   ],
+   "answer": 0,
+   "example": "This shirt is too small. Can I get a refund?",
+   "exampleZh": "這件襯衫太小了，可以退款嗎？",
+   "id": "refund"
+  },
+  {
+   "word": "reservation",
+   "type": "meaning",
+   "prompt": "reservation",
+   "options": [
+    "預訂／訂位",
+    "保留意見",
+    "水庫",
+    "休息"
+   ],
+   "answer": 0,
+   "example": "I have a reservation for two at seven.",
+   "exampleZh": "我訂了七點兩位。",
+   "id": "reservation"
+  },
+  {
+   "word": "to go",
+   "type": "blank",
+   "prompt": "Is that for here or ____?",
+   "options": [
+    "to go",
+    "to leave",
+    "going",
+    "for walk"
+   ],
+   "answer": 0,
+   "example": "Is that for here or to go?",
+   "exampleZh": "內用還是外帶？",
+   "id": "to go"
+  },
+  {
+   "word": "platform",
+   "type": "meaning",
+   "prompt": "platform",
+   "options": [
+    "月台",
+    "平底鍋",
+    "廣場",
+    "機票"
+   ],
+   "answer": 0,
+   "example": "The train to Taichung leaves from platform 3.",
+   "exampleZh": "往台中的火車從第 3 月台出發。",
+   "id": "platform"
+  },
+  {
+   "word": "prescription",
+   "type": "meaning",
+   "prompt": "prescription",
+   "options": [
+    "說明書",
+    "處方箋",
+    "訂閱",
+    "描述"
+   ],
+   "answer": 1,
+   "example": "The doctor gave me a prescription for my cough.",
+   "exampleZh": "醫生開了治咳嗽的處方箋給我。",
+   "id": "prescription"
+  },
+  {
+   "word": "leak",
+   "type": "blank",
+   "prompt": "There's a ____ under the kitchen sink. Water is everywhere!",
+   "options": [
+    "leak",
+    "leaf",
+    "lake",
+    "lock"
+   ],
+   "answer": 0,
+   "example": "There's a leak under the kitchen sink.",
+   "exampleZh": "廚房水槽下面在漏水。",
+   "id": "leak"
+  },
+  {
+   "word": "phrase:just looking",
+   "type": "phrase",
+   "prompt": "情境：店員問需要幫忙嗎，你只是逛逛，最自然的是？",
+   "options": [
+    "No, I see only.",
+    "I'm just looking, thanks.",
+    "Don't help me.",
+    "I look look."
+   ],
+   "answer": 1,
+   "example": "I'm just looking, thanks. I'll let you know if I need anything.",
+   "exampleZh": "我只是看看，謝謝。需要的話再跟你說。",
+   "id": "phrase:just looking"
+  },
+  {
+   "word": "phrase:speak to",
+   "type": "phrase",
+   "prompt": "情境：打電話想找 Amy，最自然的是？",
+   "options": [
+    "Give me Amy.",
+    "Amy is there? I want.",
+    "Hi, may I speak to Amy, please?",
+    "I call Amy now."
+   ],
+   "answer": 2,
+   "example": "Hi, may I speak to Amy, please?",
+   "exampleZh": "你好，請問 Amy 在嗎？",
+   "id": "phrase:speak to"
+  },
+  {
+   "word": "phrase:weather small talk",
+   "type": "phrase",
+   "prompt": "情境：和鄰居電梯閒聊天氣，最自然的是？",
+   "options": [
+    "Nice weather today, isn't it?",
+    "Weather is good, yes no?",
+    "Today sky good.",
+    "How is weather you?"
+   ],
+   "answer": 0,
+   "example": "Nice weather today, isn't it? Perfect for a walk.",
+   "exampleZh": "今天天氣真好，對吧？很適合散步。",
+   "id": "phrase:weather small talk"
+  }
+ ]
+}
